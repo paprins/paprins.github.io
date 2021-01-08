@@ -1,0 +1,20 @@
+{
+  "name": "paprins.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd src && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paprins/paprins.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paprins/paprins.github.io/issues"
+  },
+  "homepage": "https://github.com/paprins/paprins.github.io#readme"
+}
