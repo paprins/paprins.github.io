@@ -1,0 +1,44 @@
+baseURL: https://paprins.github.io/
+languageCode: en-us
+title: foobar-it
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 100
+    - identifier: code-of-conduct
+      name: Code of Conduct
+      url: /code-of-conduct/
+    - identifier: github
+      name: GitHub
+      url: https://github.com/paprins
+
+params:
+  env: production
+  title: Hello My Dear!
+  disableThemeToggle: false
+  profileMode:
+    enabled: true
+    title: "Hello World 🚀"
+    subtitle: "this is _not_ a landing page"
+    imageUrl: "images/linkedin-profiel.jpeg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
